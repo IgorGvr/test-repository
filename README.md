@@ -11,7 +11,7 @@ public class OpenBrowser {
 		String baseURL = "http://www.google.com";
 		driver.get(baseURL);
 		Thread.sleep(2000);
-		driver.close();	
+		driver.quit();	
 	}
 
 }
